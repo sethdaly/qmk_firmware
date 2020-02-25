@@ -28,6 +28,8 @@
 /* COL2ROW, ROW2COL*/
 #define DIODE_DIRECTION COL2ROW
 
+#define TAPPING_TERM 250
+
 /* disable these deprecated features by default */
 #ifndef LINK_TIME_OPTIMIZATION_ENABLE
 #    define NO_ACTION_MACRO
